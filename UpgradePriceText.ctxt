@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=UpgradePriceText
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ UpgradePriceText\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=upgradeCount\ upgradeType
+comment1.target=UpgradePriceText(int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ UpgradePriceText\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=upgradeTypeName
+comment3.target=float\ determineInitialUpgradePrice(java.lang.String)
+comment4.params=initialUpgradePrice\ upgradeCount
+comment4.target=int\ determineActualUpgradePrice(float,\ int)
+comment5.params=intialUpgradePrice\ newUpgradeCount\ upgradeTypeName
+comment5.target=void\ updateUpgradePriceText(float,\ int,\ java.lang.String)
+numComments=6
