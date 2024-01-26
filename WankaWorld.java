@@ -37,7 +37,11 @@ public class WankaWorld extends World
         try {
             manageDataFile();
         }catch (Throwable err){
-            System.out.println(err);
+            try{
+                saveGameToDataFile();
+            }catch(Throwable error){
+                System.out.println(error);
+            };
         }
         currentScorePerSecond = (gionCount * 1) + (gardenCount * 10) + (macBookCount * 50) + (printerCount * 200);
         setBackground("Background.png");
